@@ -1,0 +1,47 @@
+  
+  /* Main Section */
+  main {
+    padding: 2em 5%;
+    }
+  .section-title {
+    font-size: 2rem;
+    color: #5E3921;
+    margin: 2rem 0;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 0 10%;
+  }
+  .card {
+    background-color: #f6f4f5;
+    border: 2px solid #4A3C31;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+    img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      border: 1px solid #4A3C31;
+      border-radius: 5px;
+    }
+    h3 {
+      font-size: 1.2rem;
+      color: #4A3C31;
+      margin: 1rem 0 0;
+    }
+    a {
+      text-decoration: none; 
+      color: inherit; 
+      display: block; 
+    }
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+
+
