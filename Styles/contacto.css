@@ -8,7 +8,6 @@
     gap: 2rem;
     height: 75vh;
   }
-  
   .contact-form,
   .contact-info {
     flex: 1 1 30%;
@@ -16,22 +15,19 @@
     border: 2px solid #4A3C31;
     border-radius: 5px;
     padding: 1.5rem;
+    h2 {
+      font-size: 1.8rem;
+      color: #5E3921;
+      margin-bottom: 1rem;
+    }
   }
-  
-  .contact-form h2,
-  .contact-info h2 {
-    font-size: 1.8rem;
-    color: #5E3921;
-    margin-bottom: 1rem;
-  }
-  
   .contact-form label {
     display: block;
     margin-top: 1rem;
     font-size: 1rem;
     color: #4A3C31;
   }
-  
+
   .contact-form input,
   .contact-form textarea {
     width: 100%;
@@ -75,11 +71,10 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-  }
-  
-  .contact-item img {
-    width: 30px;
-    height: auto;
+    img {
+      width: 30px;
+      height: auto;
+    }
   }
   
 @media screen and (max-width: 480px) {
